@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Avant+Garde+Gothic" rel="stylesheet">
+  <title>De Buurtcampus</title>
+</head>
+<body>
+  <header>
+    <h1>De Buurt<span>campus</span></h1>
+  </header>
+  <main>
+    <!-- Filter overzicht -->
+    <aside>
+      <p>Verfijn resultaten</p>
+      <!-- Vraag & Aanbod -->
+      <h6>Vraag of aanbod?</h6>
+      <ul>
+        <li><label><input type="checkbox">Vraag</label></li>
+        <li><label><input type="checkbox">Aanbod</label></li>
+      </ul>
+      <!-- Wijk -->
+      <h6>Wijk</h6>
+      <ul>
+        <li><label><input type="checkbox">Bos en Lommer</label></li>
+        <li><label><input type="checkbox">Westerpark</label></li>
+        <li><label><input type="checkbox">Kinkerbuurt</label></li>
+        <li><label><input type="checkbox">Houthaven</label></li>
+      </ul>
+      <!-- Afstand -->
+      <h6>Maximale afstand</h6>
+      <input type="range" min="0" max="30">
+    </aside>
 
+    <!-- Inhoud -->
+    <section>
+      <!-- Zoeken & Iets plaatsen... -->
+      <section>
+        <input type="search">
+        <button>Zelf iets plaatsen...</button>
+      </section>
+      <!-- De initiatieven -->
+      <section>
+
+        <article>
+          <img src="assets/placeholder-image-250.png">
+          <section class="ad">
+            <div class="ad-left">
+              <h3>Titel</h3>
+              <p>Omschrijving</p>
+            </div>
+            <div class="ad-right">
+              <p>Locatie</p>
+              <p>Datum</p>
+            </div>
+          </section>
+        </article>
+
+        <article>
+          <img src="assets/placeholder-image-250.png">
+          <section class="ad">
+            <div class="ad-left">
+              <h3>Titel</h3>
+              <p>Omschrijving</p>
+            </div>
+            <div class="ad-right">
+              <p>Locatie</p>
+              <p>Datum</p>
+            </div>
+          </section>
+        </article>
+
+        <article>
+          <img src="assets/placeholder-image-250.png">
+          <section class="ad">
+            <div class="ad-left">
+              <h3>Titel</h3>
+              <p>Omschrijving</p>
+            </div>
+            <div class="ad-right">
+              <p>Locatie</p>
+              <p>Datum</p>
+            </div>
+          </section>
+        </article>
+
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>De Buurtcampus</p>
+    <p>Een product van de Hallen</p>
+  </footer>
+</body>
+</html>
