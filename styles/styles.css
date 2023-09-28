@@ -56,9 +56,11 @@ aside {
   background-color: var(--grey);
 }
 
-article {
+a {
   display: flex;
   margin: 2em 2em 0 0;
+  text-decoration: none;
+  color: unset;
 }
 
 .ad {
@@ -70,12 +72,14 @@ article {
 
 footer {
   margin-top: auto;
+  padding: 1em;
 }
 
 /* INPUT RANGE STYLING */
 input[type=range] {
   height: 26px;
   -webkit-appearance: none;
+  appearance: none;
   margin: 10px 0;
   width: 100%;
   background-color: transparent;
