@@ -49,7 +49,7 @@ main {
   gap: 10em;
 }
 
-aside {
+form {
   margin-left: 1em;
   border-radius: 5px;
   padding: 5em;
@@ -63,7 +63,7 @@ a {
   color: unset;
 }
 
-.ad {
+.advertisement {
   background-color: #d4e9db;
   display: flex;
   padding: 20px;
