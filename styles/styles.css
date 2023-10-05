@@ -8,6 +8,7 @@
   --grey: #dfe4e5;
   --mint: #d4e9db;
   --green: #46aa64;
+  --darkgreen: #379453;
   --navy: #0a3250;
   --black: #000000;
 }
@@ -16,12 +17,30 @@
   font-family: 'AvantGardeGothicMedium';
 }
 
+button {
+  appearance: none;
+  background-color: var(--green);
+  border: 2px solid var(--darkgreen);
+  border-radius: 6px;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1em;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--darkgreen);
+  transition: 0.4s;
+}
+
 .logo__duotone {
   color: var(--green);
 }
 
 :checked {
-  accent-color: #379453;
+  accent-color: var(--darkgreen);
 }
 
 h6 {
@@ -109,6 +128,13 @@ main {
 .main h3 {
   font-size: 2em;
   margin: 0.5em 0 0.5em 0;
+}
+
+.main__header {
+  display: flex;
+  margin: 2em;
+  margin-left: 0;
+  justify-content: space-between;
 }
 
 .advertisement {
