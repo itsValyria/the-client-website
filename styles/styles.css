@@ -20,6 +20,10 @@
   color: var(--green);
 }
 
+:checked {
+  accent-color: #379453;
+}
+
 h6 {
   font-size: 1.2em;
 }
@@ -61,6 +65,7 @@ body {
 
 .header__nav a:hover {
   color: var(--green);
+  scale: 1.1;
   transition: 0.4s;
 }
 
