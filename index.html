@@ -9,22 +9,22 @@
 </head>
 <body>
   <header class="header">
-    <a class="header__homebutton" href="index.html"><h1>De Buurt<span>campus</span></h1></a>
+    <a class="header__homebutton" href="index.html"><h1>De Buurt<span class="logo__duotone">campus</span></h1></a>
     <nav class="header__nav">
       <a href="#">Home</a>
       <a href="#">Over ons</a>
       <a href="#">Contact</a>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <!-- Filter overzicht -->
-    <form>
-      <p>Verfijn resultaten</p>
+    <form class="form">
+      <p class="form__header">Verfijn resultaten</p>
       <!-- Vraag & Aanbod -->
-      <h6>Vraag of aanbod?</h6>
+      <h6>Soort</h6>
       <ul>
-        <li><label><input type="checkbox">Vraag</label></li>
-        <li><label><input type="checkbox">Aanbod</label></li>
+        <li><label><input type="checkbox">Buurtinitiatief</label></li>
+        <li><label><input type="checkbox">Stichting</label></li>
       </ul>
       <!-- Wijk -->
       <h6>Wijk</h6>
@@ -43,7 +43,7 @@
     <section>
       <!-- Zoeken & Iets plaatsen... -->
       <section>
-        <input type="search">
+        <input type="text" placeholder="Wat wil je zoeken?">
         <button>Zelf iets plaatsen...</button>
       </section>
       <!-- De initiatieven -->
@@ -101,7 +101,7 @@
   <footer class="footer">
     <!-- Section vervangen door? -->
     <section class="footer__text"> 
-      <a href="index.html"><h6>De Buurt<span>campus</span></h6></a>
+      <a href="index.html"><h6>De Buurt<span class="logo__duotone">campus</span></h6></a>
       <p>© 2023 De Buurtcampus</p>
     </section>
     <section class="footer__links">

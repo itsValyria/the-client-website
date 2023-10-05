@@ -16,6 +16,10 @@
   font-family: 'AvantGardeGothicMedium';
 }
 
+.logo__duotone {
+  color: var(--green);
+}
+
 h6 {
   font-size: 1.2em;
 }
@@ -28,8 +32,11 @@ ul {
   padding: 0;
 }
 
-span {
-  color: var(--green);
+a {
+  display: flex;
+  margin: 2em 2em 0 0;
+  text-decoration: none;
+  color: unset;
 }
 
 body {
@@ -61,25 +68,32 @@ body {
   margin: 0;
 }
 
+.form {
+  margin: 2em;
+  padding: 1em;
+  padding-right: 5em;
+  border-right: 6px solid var(--grey);
+}
+
+.form h6 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.form__header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.form label {
+  font-size: 1.2em;
+}
+
 main {
   margin: 1em;
   display: flex;
   gap: 10em;
-}
-
-form {
-  margin-left: 1em;
-  border-radius: 5px;
-  margin: 1em;
-  padding: 5em;
-  background-color: var(--grey);
-}
-
-a {
-  display: flex;
-  margin: 2em 2em 0 0;
-  text-decoration: none;
-  color: unset;
 }
 
 .advertisement {
@@ -118,7 +132,8 @@ a {
 }
 
 .footer__links a:hover {
-  scale: g;
+  color: var(--green);
+  transition: 0.4s;
 }
 
 
@@ -127,12 +142,16 @@ a {
 
 
 
+/* SEARCH BAR STYLE */
+/* SRC: */
 
 
-
+/* CHECKBOX STYLE */
+/* SRC: */
 
 
 /* INPUT RANGE STYLING */
+/* SRC: */
 input[type=range] {
   height: 26px;
   -webkit-appearance: none;
