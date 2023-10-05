@@ -17,11 +17,11 @@
   font-family: 'AvantGardeGothicMedium';
 }
 
-button {
+.button {
   appearance: none;
   background-color: var(--green);
   border: 2px solid var(--darkgreen);
-  border-radius: 6px;
+  border-radius: 8px;
   color: var(--white);
   cursor: pointer;
   font-size: 1em;
@@ -30,7 +30,7 @@ button {
   text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   background-color: var(--darkgreen);
   transition: 0.4s;
 }
@@ -55,9 +55,15 @@ ul {
   padding: 0;
 }
 
+ul input {
+  margin-right: 1em;
+  transform: scale(1.5);
+  margin-bottom: 0.7em;
+}
+
 a {
   display: flex;
-  margin: 2em 2em 0 0;
+  margin: 3em 2em 0 0;
   text-decoration: none;
   color: unset;
 }
@@ -157,8 +163,12 @@ main {
   width: 80%;
 }
 
+.advertisement__left {
+  margin-left: 2em;
+}
+
 .advertisement__right {
-  width: 20em;
+  width: 18em;
 }
 
 .advertisement__info p {
@@ -217,12 +227,41 @@ main {
 
 
 /* SEARCH BAR STYLE */
-/* SRC: */
 
+input[type=search] {
+  border: none;
+  padding: 1.2em 1em;
+  background-color: inherit;
+  border-radius: 8px;
+}
 
-/* CHECKBOX STYLE */
-/* SRC: */
+input[type=search]:focus {
+  outline: none;
+}
 
+.main__search {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f5;
+  border-radius: 8px;
+}
+
+.main__search:focus-within {
+  outline: 2px solid var(--grey);
+}
+
+.main__search svg {
+  margin-right: 1em;
+}
+
+.main__searchbutton {
+  background-color: inherit;
+  border: none;
+}
+
+.main__searchbutton:hover {
+  cursor: pointer;
+}
 
 /* INPUT RANGE STYLING */
 /* SRC: */

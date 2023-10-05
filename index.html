@@ -59,14 +59,17 @@
     <section>
       <!-- Zoeken & Iets plaatsen... -->
       <section class="main__header">
-        <input type="text" placeholder="Wat wil je zoeken?">
-        <button>Zelf iets plaatsen...</button>
+        <form class="main__search">
+          <input type="search" placeholder="Wat wil je zoeken?">
+          <button class="main__searchbutton"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+        </form>
+        <button class="button">Zelf iets plaatsen...</button>
       </section>
       <!-- De initiatieven -->
       <section>
         <ul>
+
           <li>
-
             <a href="#">
               <img class="advertisement__image" src="assets/alzheimercafe.jpg">
               <section class="advertisement">
@@ -74,7 +77,7 @@
                   <h3>Alzheimer Café Amsterdam West</h3>
                   <p class="advertisement__explanation">Elke vierde woensdag van de maand opent het Alzheimer Café Amsterdam West haar deuren en kunnen mensen met dementie, hun partners, familie, vrienden en hulpverleners terecht voor informatie en uitwisseling.</p>
                 </article>
-                <article class="advertisement__right">
+                <ul class="advertisement__right">
                   <li class="advertisement__info">
                     <img src="assets/calendar.svg">
                     <p>13-10-2023</p>
@@ -87,92 +90,97 @@
                     <img src="assets/time.svg">
                     <p>18:00 - 22:00</p>
                   </li>
-                </article>
+                </ul>
               </section>
             </a>
-
-            <a href="#">
-              <img class="advertisement__image" src="assets/vintagemarkt.jpeg">
-              <section class="advertisement">
-                <article class="advertisement__left">
-                  <h3>Art, Design & Vintage Markt</h3>
-                  <p class="advertisement__explanation">Een bezoek aan de markt is de perfecte gelegenheid om prachtige vintage objecten te ontdekken om je huis mee te verfraaien of misschien het ontbrekende stuk aan je verzameling toe te voegen! Zo vind je er o.a. schilderijen, Art Deco objecten, glas & keramiek, sieraden, verlichting, Aziatische kunst en decoratieve objecten. Laat je verrassen en kom langs!</p>
-                </article>
-                <article class="advertisement__right">
-                  <li class="advertisement__info">
-                    <img src="assets/calendar.svg">
-                    <p>27-10-2023</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/location.svg">
-                    <p>De Passage</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/time.svg">
-                    <p>11:00 - 17:00</p>
-                  </li>
-                </article>
-              </section>
-            </a>
-
-            <a href="#">
-              <img class="advertisement__image" src="assets/alzheimercafe.jpg">
-              <section class="advertisement">
-                <article class="advertisement__left">
-                  <h3>Alzheimer Café Amsterdam West</h3>
-                  <p class="advertisement__explanation">Elke vierde woensdag van de maand opent het Alzheimer Café Amsterdam West haar deuren en kunnen mensen met dementie, hun partners, familie, vrienden en hulpverleners terecht voor informatie en uitwisseling.</p>
-                </article>
-                <article class="advertisement__right">
-                  <li class="advertisement__info">
-                    <img src="assets/calendar.svg">
-                    <p>13-10-2023</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/location.svg">
-                    <p>Café Belacampo</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/time.svg">
-                    <p>18:00 - 22:00</p>
-                  </li>
-                </article>
-              </section>
-            </a>
-
-            <a href="#">
-              <img class="advertisement__image" src="assets/vintagemarkt.jpeg">
-              <section class="advertisement">
-                <article class="advertisement__left">
-                  <h3>Art, Design & Vintage Markt</h3>
-                  <p class="advertisement__explanation">Een bezoek aan de markt is de perfecte gelegenheid om prachtige vintage objecten te ontdekken om je huis mee te verfraaien of misschien het ontbrekende stuk aan je verzameling toe te voegen! Zo vind je er o.a. schilderijen, Art Deco objecten, glas & keramiek, sieraden, verlichting, Aziatische kunst en decoratieve objecten. Laat je verrassen en kom langs!</p>
-                </article>
-                <article class="advertisement__right">
-                  <li class="advertisement__info">
-                    <img src="assets/calendar.svg">
-                    <p>27-10-2023</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/location.svg">
-                    <p>De Passage</p>
-                  </li>
-                  <li class="advertisement__info">
-                    <img src="assets/time.svg">
-                    <p>11:00 - 17:00</p>
-                  </li>
-                </article>
-              </section>
-            </a>
-            
           </li>
+
+          <li>
+            <a href="#">
+              <img class="advertisement__image" src="assets/vintagemarkt.jpeg">
+              <section class="advertisement">
+                <article class="advertisement__left">
+                  <h3>Art, Design & Vintage Markt</h3>
+                  <p class="advertisement__explanation">Een bezoek aan de markt is de perfecte gelegenheid om prachtige vintage objecten te ontdekken om je huis mee te verfraaien of misschien het ontbrekende stuk aan je verzameling toe te voegen! Zo vind je er o.a. schilderijen, Art Deco objecten, glas & keramiek, sieraden, verlichting, Aziatische kunst en decoratieve objecten. Laat je verrassen en kom langs!</p>
+                </article>
+                <ul class="advertisement__right">
+                  <li class="advertisement__info">
+                    <img src="assets/calendar.svg">
+                    <p>27-10-2023</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/location.svg">
+                    <p>De Passage</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/time.svg">
+                    <p>11:00 - 17:00</p>
+                  </li>
+                </ul>
+              </section>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img class="advertisement__image" src="assets/alzheimercafe.jpg">
+              <section class="advertisement">
+                <article class="advertisement__left">
+                  <h3>Alzheimer Café Amsterdam West</h3>
+                  <p class="advertisement__explanation">Elke vierde woensdag van de maand opent het Alzheimer Café Amsterdam West haar deuren en kunnen mensen met dementie, hun partners, familie, vrienden en hulpverleners terecht voor informatie en uitwisseling.</p>
+                </article>
+                <ul class="advertisement__right">
+                  <li class="advertisement__info">
+                    <img src="assets/calendar.svg">
+                    <p>13-10-2023</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/location.svg">
+                    <p>Café Belacampo</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/time.svg">
+                    <p>18:00 - 22:00</p>
+                  </li>
+                </ul>
+              </section>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img class="advertisement__image" src="assets/vintagemarkt.jpeg">
+              <section class="advertisement">
+                <article class="advertisement__left">
+                  <h3>Art, Design & Vintage Markt</h3>
+                  <p class="advertisement__explanation">Een bezoek aan de markt is de perfecte gelegenheid om prachtige vintage objecten te ontdekken om je huis mee te verfraaien of misschien het ontbrekende stuk aan je verzameling toe te voegen! Zo vind je er o.a. schilderijen, Art Deco objecten, glas & keramiek, sieraden, verlichting, Aziatische kunst en decoratieve objecten. Laat je verrassen en kom langs!</p>
+                </article>
+                <ul class="advertisement__right">
+                  <li class="advertisement__info">
+                    <img src="assets/calendar.svg">
+                    <p>27-10-2023</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/location.svg">
+                    <p>De Passage</p>
+                  </li>
+                  <li class="advertisement__info">
+                    <img src="assets/time.svg">
+                    <p>11:00 - 17:00</p>
+                  </li>
+                </ul>
+              </section>
+            </a>
+          </li>
+
         </ul>
       </section>
     </section>
   </main>
   <footer class="footer">
-    <!-- Section vervangen door? -->
     <section class="footer__text"> 
       <a href="index.html"><h6>De Buurt<span class="logo__duotone">campus</span></h6></a>
-      <p>© 2023 De Buurtcampus</p>
+      <p>&copy; 2023 De Buurtcampus</p>
     </section>
     <section class="footer__links">
       <a href="#">Home</a>
