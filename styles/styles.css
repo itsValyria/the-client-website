@@ -16,10 +16,6 @@
   font-family: 'AvantGardeGothicMedium';
 }
 
-h1 {
-  padding: 1em;
-}
-
 h6 {
   font-size: 1.2em;
 }
@@ -33,7 +29,7 @@ ul {
 }
 
 span {
-  color: green;
+  color: var(--green);
 }
 
 body {
@@ -44,7 +40,29 @@ body {
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em 2em 4em;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.header__nav {
+  display: flex;
+  font-size: 1.2em;
+}
+
+.header__nav a:hover {
+  color: var(--green);
+  transition: 0.4s;
+}
+
+.header__homebutton {
+  margin: 0;
+}
+
 main {
+  margin: 1em;
   display: flex;
   gap: 10em;
 }
@@ -52,6 +70,7 @@ main {
 form {
   margin-left: 1em;
   border-radius: 5px;
+  margin: 1em;
   padding: 5em;
   background-color: var(--grey);
 }
@@ -70,10 +89,48 @@ a {
   gap: 30em;
 }
 
-footer {
-  margin-top: auto;
+.footer {
+  background-color: var(--navy);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4em 2em 4em;
+}
+
+.footer h6 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.footer p {
+  margin-top: 0.5em;
+}
+
+.footer__links {
+  border-left: 6px solid var(--white);
   padding: 1em;
 }
+
+.footer__links a {
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.footer__links a:hover {
+  scale: g;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* INPUT RANGE STYLING */
 input[type=range] {
