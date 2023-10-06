@@ -88,12 +88,31 @@ a {
 
 .form {
   display: none;
+  width: 75vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.form__header {
+  font-size: 2em;
+}
+
+.form h6 {
+  margin: 0;
+  font-size: 1.2em;
 }
 
 .form__button {
   position: absolute;
   fill: var(--black);
-  right: 5%;
+  right: 2%;
+  top: 20%;
+}
+
+.form__range {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .show-filter {
