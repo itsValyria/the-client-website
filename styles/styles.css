@@ -133,7 +133,8 @@ body {
 main {
   margin: 1em;
   display: flex;
-  gap: 10em;
+  /* gap: 10em; */
+  gap: 5em;
 }
 
 .main h3 {
@@ -156,7 +157,7 @@ main {
   padding: 20px;
   border-radius: 0 16px 16px 0;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  width: 80em;
+  /* width: 80em; */
 }
 
 .advertisement__info {
@@ -225,11 +226,13 @@ main {
   transition: 0.4s;
 }
 
+/* RESPONSIVE DESIGN */
 
-
-
-
-
+/* @media only screen and (max-width: 1024px) {
+  .advertisement {
+    max-width: 40em;
+  }
+} */
 
 /* SEARCH BAR STYLE */
 
