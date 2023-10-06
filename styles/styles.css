@@ -317,6 +317,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   margin: 0;
   padding: 0;
   gap: 1em;
+  min-height: 100vh;
 }
 
 .errorpage__main svg {
