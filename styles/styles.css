@@ -117,12 +117,14 @@ body {
 }
 
 .form__header {
-  font-size: 2em;
+  font-size: 1.6em;
+  /* font-size: 2em; */
   font-weight: bold;
 }
 
 .form label {
-  font-size: 1.2em;
+  /* font-size: 2em; */
+  font-size: 1em;
 }
 
 .form__range {
@@ -170,7 +172,8 @@ main {
 }
 
 .advertisement__left {
-  margin-left: 2em;
+  /* margin-left: 2em; */
+  margin-left: 1em;
 }
 
 .advertisement__right {
@@ -182,7 +185,8 @@ main {
 }
 
 .advertisement__explanation {
-  max-width: 45em;
+  /* max-width: 45em; */
+  max-width: 35em;
   font-size: 1.1em;
 }
 
