@@ -12,11 +12,6 @@
   --navy: #0a3250;
   --black: #000000;
 }
-
-* {
-  font-family: 'AvantGardeGothicMedium';
-}
-
 .button {
   appearance: none;
   background-color: var(--green);
@@ -69,6 +64,7 @@ a {
 }
 
 body {
+  font-family: 'AvantGardeGothicMedium';
   min-height: 100vh;
   display: flex;
   flex-direction: column;
