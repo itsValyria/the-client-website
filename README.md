@@ -1,5 +1,9 @@
 # De Buurtcampus
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+De Buurtcampus is een platform voor buurtinitiatieven in Amsterdam West.
+
+### User Story
+```Als buurtbewoner van Amsterdam West wil ik een overzicht van alle buurtinitiatieven kunnen bekijken, zodat ik een indruk kan krijgen van wat er allemaal te doen is in de wijk.```
 
 ## Inhoudsopgave
 
@@ -14,6 +18,9 @@
 TO DO:
 - Poster Visual
 - Screenshot van pagina
+
+Benieuwd geworden? Check de link! <br>
+itsvalyria.github.io/the-client-website/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
