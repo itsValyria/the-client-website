@@ -13,7 +13,12 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 TO DO:
 - Poster Visual
-- Screenshot van de media query's
+- Screenshot van pagina
+
+## Kenmerken
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+TO DO:
+- CSS Media queries + screenshot
 
 In dit project heb ik gebruik gemaakt van HTML, CSS en JavaScript.
 
@@ -64,10 +69,23 @@ Met de CSS heb ik de styling van de website gedaan, eigenlijk alles wat met het 
 ### JavaScript
 Met de JavaScript heb ik een functie geschreven die alleen op de mobile en tablet versie werkt. Deze function klapt bij het klikken van een ```button``` de ```<form>``` waar de filters in zitten uit. Ook verandert de ```<button>``` van icoontje zodat er een terug icoontje staat.
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+```js
+   function showfilter() {
+     const form = document.querySelector('form')
+     form.classList.toggle('show-filter')
+   
+     const toggle = document.querySelector('.form__button')
+       for (const svg of toggle.children) {
+         svg.classList.toggle('show')
+       }
+   }
+```
 
-
+<section display: flex; justify-content: center; align-items: center;>
+ <img width="300" alt="image" src="https://github.com/itsValyria/the-client-website/assets/76444716/13efa180-8fab-4c9f-85ab-cf0ccb06f95c">
+ <img width="300" alt="image" src="https://github.com/itsValyria/the-client-website/assets/76444716/be29454d-ea81-4402-95bc-bb1cd9d29994">
+ <img width="300" alt="image" src="https://github.com/itsValyria/the-client-website/assets/76444716/d92eb69e-7781-4059-af1b-7e5caf5c413a">
+</section>
 
 ## Licentie
 
