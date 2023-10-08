@@ -1,5 +1,5 @@
 # De Buurtcampus
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
 De Buurtcampus is een platform voor buurtinitiatieven in Amsterdam West.
 
 ### User Story
@@ -12,20 +12,15 @@ De Buurtcampus is een platform voor buurtinitiatieven in Amsterdam West.
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Met dit project heeft de buurtbewoner van Amsterdam West een platform tot zijn beschikking waar hij/zij alle buurtinitiatieven kan zien. Deze site is bereikbaar en bruikbaar vanaf alle apparaten. Er is een handige fiter functie waarmee je makkelijk kunt filteren op afstand, wijk etc. Ook is er een zoekbalk om te zoeken met steekwoorden of een specifiek initiatief. 
 <!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-TO DO:
-- Poster Visual
-- Screenshot van pagina
+**TO DO:
+- Poster Visual**
 
 Benieuwd geworden? Check de link! <br>
 itsvalyria.github.io/the-client-website/
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-TO DO:
-- CSS Media queries + screenshot
 
 In dit project heb ik gebruik gemaakt van HTML, CSS en JavaScript.
 
@@ -71,7 +66,53 @@ Deze listing is gewrapped in een ```<a>``` tag, zodat het hele geheel clickable 
 ```
 
 ### CSS
-Met de CSS heb ik de styling van de website gedaan, eigenlijk alles wat met het uiterlijk van de website te maken heeft. Het meest belangrijke wat ik in CSS heb toegevoegd, is de responsiveness van deze site. Hieronder zal ik per media query kort de code uitleggen inclusief een foto van het eindrestultaat.
+Met de CSS heb ik de styling van de website gedaan, eigenlijk alles wat met het uiterlijk van de website te maken heeft. Het meest belangrijke wat ik in CSS heb toegevoegd, is de responsiveness van deze site. Hieronder zal ik van een van de media queries kort de code uitleggen inclusief een foto van het eindrestultaat.
+
+## Media Query Tablet
+```css
+@media only screen and (min-width: 660px) and (max-width: 1023px) {
+  .button {
+    font-size: 1em;
+  }
+
+  .header__homebutton {
+    font-size: 1.5em;
+  }
+  
+  .main__content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+  }
+
+  .main__header {
+    gap: 0;
+    margin: 2em auto;
+  }
+
+  .advertisement {
+    height: 30em;
+  }
+
+  .advertisement__description {
+    height: 14em;
+  }
+
+  .footer h6 {
+    font-size: 2.5em;
+  }
+
+  input[type=search] {
+    width: 28em;
+    font-size: 1em;
+  }
+}
+```
+Bij deze Media Query maak ik gebruik van ```grid```, om in plaats van een lijn block elements een grid te creeëren met twee kolommen. Zo heb je op een redelijk klein schermpje, zoals een tablet, toch een overzichtelijk beeld. Ik maak gebruik van ```grid-template-columns: repeat(2, 1fr)``` om aan te geven dat er twee columns moeten zijn, beide 1 breed. Ook geef ik de sections van de advertentie een ```height``` zodat ze allemaal even groot zijn, ook al staat er niet genoeg tekst om alles te vullen. Verder pas ik alleen de ```font-size``` aan op sommige plekken, omdat er op de tablet meer ruimte is dan op een small device zoals een telefoon.
+
+## Eindresultaat Tablet
+![image](https://github.com/itsValyria/the-client-website/assets/76444716/6cc841a6-da1e-4215-b275-5c4fe52c0e4f)
 
 ### JavaScript
 Met de JavaScript heb ik een functie geschreven die alleen op de mobile en tablet versie werkt. Deze function klapt bij het klikken van een ```button``` de ```<form>``` waar de filters in zitten uit. Ook verandert de ```<button>``` van icoontje zodat er een terug icoontje staat.
