@@ -13,9 +13,8 @@ De Buurtcampus is een platform voor buurtinitiatieven in Amsterdam West.
 
 ## Beschrijving
 Met dit project heeft de buurtbewoner van Amsterdam West een platform tot zijn beschikking waar hij/zij alle buurtinitiatieven kan zien. Deze site is bereikbaar en bruikbaar vanaf alle apparaten. Er is een handige fiter functie waarmee je makkelijk kunt filteren op afstand, wijk etc. Ook is er een zoekbalk om te zoeken met steekwoorden of een specifiek initiatief. 
-<!-- Voeg een mooie poster visual toe 📸 -->
-**TO DO:
-- Poster Visual**
+
+![Untitled_Artwork](https://github.com/itsValyria/the-client-website/assets/76444716/680aa0c4-8ede-4c6d-8be1-e4ed143ad42e)
 
 Benieuwd geworden? Check de link! <br>
 itsvalyria.github.io/the-client-website/
