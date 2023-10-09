@@ -335,19 +335,19 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .errorpage__main h1 {
-  font-size: 10em;
-  margin: 0;
-  padding: 0;
-}
-
-.errorpage__main h2 {
   font-size: 5em;
   margin: 0;
   padding: 0;
 }
 
+.errorpage__main h2 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
 .errorpage__message {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .errorpage__duotone {
@@ -355,8 +355,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .errorpage__main p {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0;
+  width: 90%;
+  margin: 0 auto;
 }
 .errorpage__main a {
   display: inline;
@@ -410,6 +412,27 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   input[type=search] {
     width: 28em;
     font-size: 1em;
+  }
+
+  .errorpage__main {
+    min-height: 60vh;
+  }
+
+  .errorpage__main svg {
+    margin-top: 6em;
+  }
+
+  .errorpage__main p {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .errorpage__main h2 {
+    font-size: 2.5em;
+  }
+
+  .errorpage__main h1 {
+    font-size: 8em;
   }
 }
 
@@ -543,7 +566,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     padding: 20px;
     border-radius: 0 16px 16px 0;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    max-height: 13em;
+    height: 13em;
   }
   
   .advertisement__info {
@@ -623,6 +646,27 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     width: 28em;
     font-size: 1em;
   }
+
+  .errorpage__main {
+    min-height: 60vh;
+  }
+
+  .errorpage__main svg {
+    margin-top: 6em;
+  }
+
+  .errorpage__main p {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .errorpage__main h2 {
+    font-size: 4em;
+  }
+
+  .errorpage__main h1 {
+    font-size: 8em;
+  }
 }
 
 /* Desktop */
@@ -630,7 +674,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 @media only screen and (min-width: 1921px) {
   .advertisement {
     gap: 10em;
-    height: 20em;
+    /* height: 20em; */
   }
 
   .advertisement__description {
