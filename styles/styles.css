@@ -558,6 +558,10 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     gap: 0;
   }
 
+  .main__header {
+    padding-top: 2.5em;
+  }
+
   .advertisement__link {
     display: flex;
     flex-direction: row;
